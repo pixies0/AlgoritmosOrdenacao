@@ -1,18 +1,17 @@
-## Getting Started
+# 📌 Algoritmos de Ordenação em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Projeto de estudo** para implementar algoritmos de ordenação clássicos em Java, com foco em:
+- **Entender a lógica** por trás de cada algoritmo
+- **Praticar Java** (estruturas de dados, loops, métodos)
+- **Comparar eficiência** entre diferentes abordagens
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📋 Algoritmos Implementados
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| Algoritmo       | Status        | Observações                     |
+|-----------------|--------------|---------------------------------|
+| **Bubble Sort** | ✅ Implementado | Variação otimizada com `-i` no loop interno |
+| *Insertion Sort*| 🚧 Pendente    | Próximo da lista!               |
+| *Selection Sort*| 🚧 Pendente    |                                 |
+| *Counting Sort* | 🚧 Pendente    | Para inteiros em faixas pequenas |
