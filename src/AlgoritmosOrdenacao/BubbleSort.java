@@ -22,4 +22,14 @@ public class BubbleSort {
 
         } while (trocou);
     }
+
+    public static void algoritmoVariacao(int[] conjunto){
+        for(int i = 0; i < conjunto.length; i++){
+            for(int j = 0; j < conjunto.length - 1 - i; j++){
+                if(conjunto[j] > conjunto[j + 1]){
+                    troca(conjunto, j, j + 1);
+                }
+            }
+        }
+    }
 }
